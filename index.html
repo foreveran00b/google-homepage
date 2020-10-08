@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+    .links {
+        font-size: 13px;
+        color: #000000;
+        font-family: Arial, sans-serif;
+    }
+    a:link {
+        color:#000000;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .apps {
+        width: 10px;
+        height: 10px;
+        background-color:#000000;
+        color: #000000;
+        
+    }
+    .button2 {
+        color: white;
+        background-color: #3385ff;
+        font-size: 13px;
+        border: none;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .right {
+        float:right;
+        padding: 5px;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+    }    
+    input [type=text] {
+        border: 1px solid gray
+    }
+</style>
+    <head>
+        
+    </head>
+    <nav>
+        <a class="links" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+        <a class="links" href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+        <button class="button2 right" onclick="href='http://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/';">Sign In</button>
+        <a class="apps right" href="https://www.google.com/intl/en/about/products?tab=wh" title="Google Apps">&#9744</a>
+        <a class="links right" href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
+        <a class="links right" href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
+    </nav>
+    <body>
+       <div>
+        <img class="logo" src="https://web.archive.org/web/20191130234759im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <form class="center">
+            <input type="text" id="search">
+        </form>
+       </div> 
+    </body>
+</html>
